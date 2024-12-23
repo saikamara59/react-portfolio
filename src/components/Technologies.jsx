@@ -5,7 +5,7 @@ import { DiRedis } from "react-icons/di";
 import { FaNodeJs} from "react-icons/fa";
 import {BiLogoPostgresql} from "react-icons/bi"
 import {motion} from  "framer-motion"
-
+import { FaPython } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: {y: -10},
@@ -73,6 +73,13 @@ const Technologies = () => {
      animate= "animate"
     className="rounded-2xl border-4 border-neutral-800 p-4">
     <BiLogoPostgresql className="text-7xl text-sky-700" />
+    </motion.div>
+    <motion.div 
+     variants={iconVariants(2)}
+     initial="initial"
+     animate= "animate"
+    className="rounded-2xl border-4 border-neutral-800 p-4">
+    <FaPython  className="text-7xl text-green-700"/>
     </motion.div>
     </motion.div>
   </div>
