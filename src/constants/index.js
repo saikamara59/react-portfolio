@@ -7,7 +7,11 @@ export const HERO_CONTENT = ` I am Software Engineer with hands-on experience in
 Passionate about building scalable, user-friendly applications & optimizing performance I am adaptable and thrive in dynamic environments that embrace technological advancement.
 Adept at solving complex problems, collaborating in Agile teams, & endlessly learning new technologies to create impactful solutions, I derive satisfaction from problem-solving and refining code.`;
 
-export const ABOUT_TEXT = `I'm a dedicated software engineer from Park Hill Staten Island, New York, with a passion for technology that began at a young age. My journey into coding and innovation was sparked when I was just five years old, thanks to the arrival of my family's first Windows XP desktop. This early exposure ignited a lifelong curiosity and love for building and problem-solving through technology. Throughout my journey, I have embraced challenges that have shaped my growth and resilience as a developer. I am skilled in a variety of technologies, including Flask, Django, React, Next.js, Node.js, Express, MySQL, PostgreSQL, and MongoDB. My technical toolkit also includes languages such as JavaScript, Python, and TypeScript. I am always eager to learn, adapt to new environments, and take on new challenges. I am excited about the opportunities that lie ahead and confident in my ability to contribute meaningfully to the tech industry by delivering innovative solutions and exceptional user experiences.`;
+export const ABOUT_TEXT = `I’m a full-stack software developer with a story that’s shaped my passion and perseverance. My journey hasn’t been easy — I’ve overcome significant challenges, including time in juvenile incarceration and surviving being shot. These experiences didn’t define my future; they fueled it.
+
+After graduating from a coding bootcamp, I dove into tech with relentless focus, building projects that combine real-world utility with creativity. From AI-powered blog platforms to tools for e-commerce, law enforcement, and legal industries, I’ve worked with technologies like React, Flask, and PostgreSQL to bring ideas to life.
+
+What sets me apart isn’t just my technical skillset — it’s the grit, adaptability, and purpose I bring to everything I build. I believe in growth, second chances, and using tech to create meaningful impact. I’m always learning, always building, and always looking forward.`;
 
 export const EXPERIENCES = [
   {

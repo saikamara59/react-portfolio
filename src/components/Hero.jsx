@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/painproject2.png";
+import profilePic from "../assets/onepiece.gif";
 import { motion } from "motion/react"
 
 
