@@ -3,9 +3,11 @@
 ![Screenshot 2025-05-15 193404](https://github.com/user-attachments/assets/fbb3c86d-e335-437b-ad82-b9dec3b00113)
 
 ## About
+
 Saidu's Portfolio is react porfolio web platform designed to express and showcase skills, projects and experience and learning more so about me. Whether you are scrolling seeing the amazing animations or learning a little about me this project was very personal to me and i took the time to enhance it to my full capable ablities.
 
 ## Getting Started
+
 ## Deployed Link :  https://saiduportfolio.netlify.app/
 
 ## Features:
