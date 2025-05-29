@@ -63,5 +63,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Staten Island, New York 10304",
   phoneNo: "+1 646-508-8547",
-  email: "mhsaidu@gmail.com",
+  email: "saikamara646@gmail.com",
 };
