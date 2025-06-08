@@ -36,6 +36,7 @@ export const PROJECTS = [
     description:
       "A full-stack web application where movie enthusiasts can browse movies, read and post reviews, and interact with the community by adding thier favorite movies, edit and delete them how ever they would like.",
     technologies: ["HTML", "Tailwind CSS", "Express", "Node.js", "MongoDB"],
+    github:"https://github.com/saikamara59/film-fanatics",
   },
   {
     title: "A New York Thrift Store ",
@@ -43,6 +44,7 @@ export const PROJECTS = [
     description:
       "A New York Thrift Store is a full stack web e-commerce platform designed to bring the charm of thrift shopping to your fingertips. Whether you're looking for vintage tees, retro jackets, or unique accessories, our store offers a wide range of items to suit every style.",
     technologies: ["React", " Tailwind CSS", "Flask", "PostgreSql"],
+    github:"https://github.com/saikamara59/thrift-store-react",
   },
   {
     title: "React Portfolio Website",
@@ -50,13 +52,15 @@ export const PROJECTS = [
     description:
       "Designed and developed a responsive portfolio website to highlight skills, projects, and experience.",
     technologies: ["Next Js", " Tailwind CSS", "React"],
+    github:"https://github.com/saikamara59/react-portfolio",
   },
   {
     title: "Aura Tunes",
     image: project4,
     description:
       "Aura Tunes is a full stack web dynamic, personalized music collection app designed to bring your musical tastes to life. The app allows users to discover new songs and artists, while offering full control to create, update, and manage their music collections.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Node Js", "Mongo Db"],
+    technologies: ["HTML", "Tailwind CSS", "React", "Node Js", "Mongo DB"],
+    github:"https://github.com/llewibyr/Aura-Tunes/tree/main/aura-tunes",
   },
 ];
 
