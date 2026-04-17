@@ -1,17 +1,13 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import reactportfolio from "../assets/projects/reactportfolio.jpg";
+import debugflow from "../assets/projects/debugflow.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = ` I am Software Engineer with hands-on experience in full-stack development using React, Flask, PostgreSQL, Express and MongoDB with a background in logistics and IT analysis.
-Passionate about building scalable, user-friendly applications & optimizing performance I am adaptable and thrive in dynamic environments that embrace technological advancement.
-Adept at solving complex problems, collaborating in Agile teams, & endlessly learning new technologies to create impactful solutions, I derive satisfaction from problem-solving and refining code.`;
+export const HERO_CONTENT = ` Software Engineer — Full-stack engineer obsessed with building AI systems that work at scale. I've shipped self-correcting agent architectures at Melting, designed multi-platform data aggregators, and published CLI tools with 7+ retrieval sources (DebugFlow on PyPI). Comfortable across the full stack: frontend (React), backend (FastAPI/Flask), databases (PostgreSQL), and LLM tooling (Claude API, multi-model integration).
+Currently: exploring agent reliability, automation infrastructure, AI-first products `
 
-export const ABOUT_TEXT = `I’m a full-stack software developer with a story that’s shaped my passion and perseverance. My journey hasn’t been easy — I’ve overcome significant challenges, including time in juvenile incarceration and surviving being shot. These experiences didn’t define my future; they fueled it.
-
-After graduating from a coding bootcamp, I dove into tech with relentless focus, building projects that combine real-world utility with creativity. From AI-powered blog platforms to tools for e-commerce, law enforcement, and legal industries, I’ve worked with technologies like React, Flask, and PostgreSQL to bring ideas to life.
-
-What sets me apart isn’t just my technical skillset — it’s the grit, adaptability, and purpose I bring to everything I build. I believe in growth, second chances, and using tech to create meaningful impact. I’m always learning, always building, and always looking forward.`;
+export const ABOUT_TEXT = `I'm a software engineer focused on building AI infrastructure that works at scale. I shipped self-correcting agent systems at Melting, published DebugFlow on PyPI, and I'm drawn to problems that require both technical depth and creative problem-solving.
+I believe the best engineers are those who've learned to push through complexity — whether that's building distributed systems, debugging production code, or shipping in constrained environments. I'm always learning, always building, always looking forward.`;
 
 export const EXPERIENCES = [
   {
@@ -22,21 +18,21 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "Next.js", "MongoDB", "Python", "TypeScript"],
   },
   {
-    year: "2021 - Present",
-    role: "Fulfillment Associate",
-    company: "Amazon",
-    description: `Ensured safe and efficient movement of trucks in and out of the warehouse while adhering to operational protocols. Maintained a secure and organized work environment by communicating and collaborating with the team. Contributed to seamless warehouse operations by adapting to the environment and adherence to safety standards.`,
+    year: "2026 - Present",
+    role: "AI Software Engineer",
+    company: "Melting",
+    description: `Replaced manual investment research with a Playwright-powered LinkedIn signal scraper that extracts real-time funding relationships between companies – cutting analyst time to zero for that workflow. Scaled job data coverage from 0 to 16 platforms by engineering a multi-source aggregator that handles anti-bot detection, varied DOM structures, and normalization into a unified pipeline – now the core data layer of the product. Eliminated a recurring class of AI code errors by designing a self-correcting agent system using Claude’s skill architecture – a feedback loop that learns from mistakes and rewrites generation behavior, reducing debugging cycles across the platform.`,
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Film Fanatics",
+    title: "HealthFlow",
     image: project1,
     description:
-      "A full-stack web application where movie enthusiasts can browse movies, read and post reviews, and interact with the community by adding thier favorite movies, edit and delete them how ever they would like.",
-    technologies: ["HTML", "Tailwind CSS", "Express", "Node.js", "MongoDB"],
-    github:"https://github.com/saikamara59/film-fanatics",
+      "An AI-powered health insurance brokerage platform designed and built by Saidu Kamara to solve a real industry problem: health insurance is confusing, comparisons are manual, and brokers waste hours on paperwork that should be automated HealthFlow gives insurance brokers a single platform to manage client portfolios, compare Medicare Advantage plans side-by-side, estimate annual costs, verify provider networks against real NPPES data, translate dense policy documents into plain English, and auto-generate claims appeal letters — all backed by AI that learns from broker feedback to get smarter over time.",
+    technologies: ["React", "Tailwind CSS", "Flask", "FastAPI", "ClaudeAPI", "PostgreSQL", "Docker", "Redis"],
+    github:"https://github.com/saikamara59/health-insurance-agent",
   },
   {
     title: "A New York Thrift Store ",
@@ -47,20 +43,20 @@ export const PROJECTS = [
     github:"https://github.com/saikamara59/thrift-store-react",
   },
   {
-    title: "React Portfolio Website",
-    image: reactportfolio,
+    title: "DebugFlow",
+    image: debugflow,
     description:
-      "Designed and developed a responsive portfolio website to highlight skills, projects, and experience.",
-    technologies: ["Next Js", " Tailwind CSS", "React"],
-    github:"https://github.com/saikamara59/react-portfolio",
+      "DebugFlow is a CLI built for junior developers who get stuck on cryptic Python errors and want to actually understand what went wrong — not just copy-paste a fix from Stack Overflow. Instead of generic answers, DebugFlow reads your codebase, finds the relevant files, and explains the problem in context.",
+    technologies: ["Python", "FastAPI", "ClaudeAPI", "Github"],
+    github:"https://github.com/saikamara59/debugflow",
   },
   {
-    title: "Aura Tunes",
+    title: "Order Processing System",
     image: project4,
     description:
-      "Aura Tunes is a full stack web dynamic, personalized music collection app designed to bring your musical tastes to life. The app allows users to discover new songs and artists, while offering full control to create, update, and manage their music collections.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Node Js", "Mongo DB"],
-    github:"https://github.com/llewibyr/Aura-Tunes/tree/main/aura-tunes",
+      "a simple microservices-based order processing system using Node.js, Express Includes Swagger API docs and Docker Compose for easy setup.",
+    technologies: ["Python", "Swagger API", "Flask", "PostgreSQL"],
+    github:"https://github.com/saikamara59/order-processing-system",
   },
 ];
 
