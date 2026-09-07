@@ -3,10 +3,10 @@ import project2 from "../assets/projects/project-2.jpg";
 import debugflow from "../assets/projects/debugflow.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `AI software engineer who ships reliable products end to end—from agent systems and APIs to data pipelines and polished front-end experiences. I've built project-aware developer tooling, self-correcting agent architectures, and multi-platform data systems. Comfortable across the full stack: frontend (React), backend (FastAPI/Flask), databases (PostgreSQL), and LLM tooling (Claude API, Pydantic AI, and Logfire).
-Currently: exploring agent reliability, automation infrastructure, and AI-first products.`
+export const HERO_CONTENT = ` Software Engineer — Full-stack engineer obsessed with building AI systems that work at scale. I've shipped self-correcting agent architectures at Melting, designed multi-platform data aggregators, and published CLI tools with 7+ retrieval sources (DebugFlow on PyPI). Comfortable across the full stack: frontend (React), backend (FastAPI/Flask), databases (PostgreSQL), and LLM tooling (Claude API, multi-model integration).
+Currently: exploring agent reliability, automation infrastructure, AI-first products `
 
-export const ABOUT_TEXT = `I'm a software engineer focused on building reliable AI infrastructure and end-to-end products. I shipped self-correcting agent systems at Melting, built DebugFlow as project-aware Python debugging tooling, and I'm drawn to problems that require both technical depth and creative problem-solving.
+export const ABOUT_TEXT = `I'm a software engineer focused on building AI infrastructure that works at scale. I shipped self-correcting agent systems at Melting, published DebugFlow on PyPI, and I'm drawn to problems that require both technical depth and creative problem-solving.
 I believe the best engineers are those who've learned to push through complexity — whether that's building distributed systems, debugging production code, or shipping in constrained environments. I'm always learning, always building, always looking forward.`;
 
 export const EXPERIENCES = [
@@ -61,8 +61,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  location: "New York City",
+  address: "Staten Island, New York 10304",
+  phoneNo: "+1 646-508-8547",
   email: "saikamara646@gmail.com",
-  linkedin: "https://www.linkedin.com/in/saidukamara1/",
-  github: "https://github.com/saikamara59",
 };
