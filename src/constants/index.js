@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import debugflow from "../assets/projects/debugflow.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = ` Software Engineer — Full-stack engineer obsessed with building AI systems that work at scale. I've shipped self-correcting agent architectures at Melting, designed multi-platform data aggregators, and published CLI tools with 7+ retrieval sources (DebugFlow on PyPI). Comfortable across the full stack: frontend (React), backend (FastAPI/Flask), databases (PostgreSQL), and LLM tooling (Claude API, multi-model integration).
 Currently: exploring agent reliability, automation infrastructure, AI-first products `
@@ -30,9 +30,9 @@ export const PROJECTS = [
     title: "HealthFlow",
     image: project1,
     description:
-      "An AI-powered health insurance brokerage platform designed and built by Saidu Kamara to solve a real industry problem: health insurance is confusing, comparisons are manual, and brokers waste hours on paperwork that should be automated HealthFlow gives insurance brokers a single platform to manage client portfolios, compare Medicare Advantage plans side-by-side, estimate annual costs, verify provider networks against real NPPES data, translate dense policy documents into plain English, and auto-generate claims appeal letters — all backed by AI that learns from broker feedback to get smarter over time.",
+      "HealthFlow is the agent workspace Medicare brokers use to compare plans, translate dense benefits, and draft appeals — with an attributable, PHI-aware record under every recommendation.",
     technologies: ["React", "Tailwind CSS", "Flask", "FastAPI", "ClaudeAPI", "PostgreSQL", "Docker", "Redis"],
-    github:"https://github.com/saikamara59/health-insurance-agent",
+    website:"https://healthflow.work/",
   },
   {
     title: "A New York Thrift Store ",
@@ -51,12 +51,12 @@ export const PROJECTS = [
     github:"https://github.com/saikamara59/debugflow",
   },
   {
-    title: "Order Processing System",
+    title: "OverTurn",
     image: project4,
     description:
-      "a simple microservices-based order processing system using Node.js, Express Includes Swagger API docs and Docker Compose for easy setup.",
-    technologies: ["Python", "Swagger API", "Flask", "PostgreSQL"],
-    github:"https://github.com/saikamara59/order-processing-system",
+      "AI-assisted denial management for medical billing teams. Overturn turns supported denial files into a deadline-prioritized worklist and template-generated appeal drafts, with optional Claude refinement for human review",
+    technologies: ["Python", "Fast API", "ClaudeAI", "PostgreSQL"],
+    website:"https://overturn.up.railway.app/",
   },
 ];
 

@@ -20,10 +20,10 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4">
               <a
-                href={project.github}
+                href={project.website || project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                title={`View ${project.title} on GitHub`}
+                title={project.website ? `Visit ${project.title}` : `View ${project.title} on GitHub`}
               >
                 <img
                   src={project.image}
@@ -39,10 +39,10 @@ const Projects = () => {
               transition={{ duration: 1.5 }}
               className="w-full max-w-xl lg:3/4">
               <a
-                href={project.github}
+                href={project.website || project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                title={`View ${project.title} on GitHub`}
+                title={project.website ? `Visit ${project.title}` : `View ${project.title} on GitHub`}
               >
                 <h6 className="mb-2 font-semibold">{project.title}</h6>
                 <p className="mb-4 text-neutral-400 ">{project.description}</p>
