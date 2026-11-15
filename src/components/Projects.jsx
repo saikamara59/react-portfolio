@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants";
 import { motion }  from "framer-motion"
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -38,13 +39,34 @@ const Projects = () => {
               initial={{opacity: 0, x:100 }}
               transition={{ duration: 1.5 }}
               className="w-full max-w-xl lg:3/4">
+              <div className="mb-2 flex items-center gap-2">
+                <a
+                  href={project.website || project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={project.website ? `Visit ${project.title}` : `View ${project.title} on GitHub`}
+                >
+                  <h6 className="font-semibold">{project.title}</h6>
+                </a>
+                {project.website && project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={`View ${project.title} on GitHub`}
+                    aria-label={`View ${project.title} on GitHub`}
+                    className="text-neutral-400 transition hover:text-white"
+                  >
+                    <FaGithub />
+                  </a>
+                )}
+              </div>
               <a
                 href={project.website || project.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 title={project.website ? `Visit ${project.title}` : `View ${project.title} on GitHub`}
               >
-                <h6 className="mb-2 font-semibold">{project.title}</h6>
                 <p className="mb-4 text-neutral-400 ">{project.description}</p>
                 {project.technologies.map((tech,index)=> (
                   <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
