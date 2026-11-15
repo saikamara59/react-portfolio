@@ -34,6 +34,7 @@ export const PROJECTS = [
       "HealthFlow is the agent workspace Medicare brokers use to compare plans, translate dense benefits, and draft appeals — with an attributable, PHI-aware record under every recommendation.",
     technologies: ["React", "Tailwind CSS", "Flask", "FastAPI", "ClaudeAPI", "PostgreSQL", "Docker", "Redis"],
     website:"https://healthflow.work/",
+    github:"https://github.com/saikamara59/healthflow",
   },
   {
     title: "A New York Thrift Store ",
@@ -58,6 +59,7 @@ export const PROJECTS = [
       "AI-assisted denial management for medical billing teams. Overturn turns supported denial files into a deadline-prioritized worklist and template-generated appeal drafts, with optional Claude refinement for human review",
     technologies: ["Python", "Fast API", "ClaudeAI", "PostgreSQL"],
     website:"https://overturn.up.railway.app/",
+    github:"https://github.com/saikamara59/overturn",
   },
   {
     title: "Pick a Date",
