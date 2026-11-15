@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import debugflow from "../assets/projects/debugflow.jpg";
 import project4 from "../assets/projects/project-4.png";
+import pickADate from "../assets/projects/pick-a-date.jpg";
 
 export const HERO_CONTENT = ` Software Engineer — Full-stack engineer obsessed with building AI systems that work at scale. I've shipped self-correcting agent architectures at Melting, designed multi-platform data aggregators, and published CLI tools with 7+ retrieval sources (DebugFlow on PyPI). Comfortable across the full stack: frontend (React), backend (FastAPI/Flask), databases (PostgreSQL), and LLM tooling (Claude API, multi-model integration).
 Currently: exploring agent reliability, automation infrastructure, AI-first products `
@@ -57,6 +58,15 @@ export const PROJECTS = [
       "AI-assisted denial management for medical billing teams. Overturn turns supported denial files into a deadline-prioritized worklist and template-generated appeal drafts, with optional Claude refinement for human review",
     technologies: ["Python", "Fast API", "ClaudeAI", "PostgreSQL"],
     website:"https://overturn.up.railway.app/",
+  },
+  {
+    title: "Pick a Date",
+    image: pickADate,
+    description:
+      "A date-invite generator: you build an invite and text her the link. She picks the area, the food, the activity, real spots, and a day and time — then you get an email with her picks, a calendar invite, and an AI game plan. No database: the whole invite lives in the link.",
+    technologies: ["React", "TypeScript", "Netlify Functions", "Google Places API", "ClaudeAPI"],
+    website:"https://saidusdatenight.netlify.app/",
+    github:"https://github.com/saikamara59/pick-a-date",
   },
 ];
 
